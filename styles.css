@@ -1,4 +1,31 @@
-* {
+
+body {
+    background-color: black;
+    color:white;
+}
+ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-}
+    overflow: hidden;
+    background-color: #333;
+  }
+  li a {
+    float:right;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  .skateland{
+    float:left;
+    color:white;
+    font-family: skateland, sans-serif;
+  }
+  @font-face {
+    font-family: skateland;
+    src: url(fonts/minstrelposterwhg.posternf.ttf);
+  }
