@@ -16,16 +16,17 @@ ul {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
+    margin:0;
   }
   li a:hover {
-    background-color: #111;
+    background-color: lightskyblue;
   }
   .skateland{
     float:left;
-    color:white;
+    color:greenyellow;
     font-family: skateland, sans-serif;
   }
   @font-face {
     font-family: skateland;
-    src: url(fonts/minstrelposterwhg.posternf.ttf);
+    src: url(fonts/minstrelposterwhg.posternf.otf);
   }
